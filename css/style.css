@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+header{
+    text-align: center;
+}
+
+body{
+    background-color: #f1f1f1;
+    
+    h2{
+        text-align: center;
+    }
+}
+
+#nav-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    justify-content: space-evenly;
+}
+
+#description {
+    display: flex;
+    flex-direction: column;
+    padding: 48px;
+    gap: 18px;
+
+    h2{
+        font-family: "Sigmar", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        justify-content: center;
+    }
+
+    p{
+        line-height: 40px;
+        justify-content: center;
+    }
+}
+
+#myself{
+    background-color: red;
+    align-items: center;
+    text-align: right;
+}
+
+#hobbies{
+
+    display: flex;
+    flex-direction: column;
+    padding: 48px;
+    gap: 18px;
+
+    h2{
+        font-family: "Sigmar", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        justify-content: center;
+    }
+
+    p{
+        line-height: 40px;
+    }
+}
+
+#my-hobbies{
+    background-color: red;
+    align-items: center;
+    text-align: right;
+}
+
+#My-socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    height: 40vh;
+    padding: 30px;justify-content: space-between;
+}
+
+i{
+    font-size: 56px;
+}
